@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: auto;
+}
+
+
+.navbar{
+    width: 900px;
+    margin: 0 auto;
+    background-color: black;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 150%;
+    padding-left: 2%;
+}
+#net{
+    color: white;
+    display: flex;
+}
+
+.feed{
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+section{
+    width: 900px;
+    display: flex;
+    margin: 10px auto;
+    justify-content: space-between;
+}
+
+#box-1{
+    border: 2px solid black;
+    display: block;
+    width: 500px;
+    padding-left: 2%;
+}
+
+.bx-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bx-3{
+    display: flex;
+    align-items: center;
+}
+
+#btn{
+    padding: 5px 10px;
+    margin: 5px 10px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 1px black;
+    cursor: pointer;
+    background-color: #ffd966;
+}
+
+.container-1{
+    border: 3px solid black;
+    display: block;
+    height: 400px;
+    width: 200px;
+}
+
+#img-usr{
+    background-image: url(img/user-circle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+}
+.bx-1{
+    padding-top: 50%;
+    padding-bottom: 50%;
+    align-items: center;
+    flex-direction: column;
+}
+
+#block{
+    border: 3px solid black;
+    display: block;
+    width: 615px;
+    padding: 2%;
+}
+
+.container-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contain-2{
+    display: flex;
+    font-size: 80%;
+    align-items: center;
+}
+
+.box-2{
+    display: block;
+    width: 645px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#block{
+    height: 75px;
+}
+
