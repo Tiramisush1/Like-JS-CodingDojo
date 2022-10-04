@@ -1,0 +1,31 @@
+section{
+    width: 700px;
+    display: flex;
+    margin: 10px auto;
+}
+
+#box-1{
+    border: 2px solid black;
+    display: block;
+    width: 500px;
+    padding-left: 2%;
+}
+
+.bx-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bx-3{
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    padding: 5px 10px;
+    margin: 5px 10px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 1px black;
+    cursor: pointer;
+    background-color: #ffd966;
+}
