@@ -1,0 +1,13 @@
+
+
+var lbl_h1 = document.querySelector("#boton1");
+
+    
+function ActualizarLike() {
+
+    console.log(lbl_h1);
+    lbl_h1.innerText = "15 Likes(s)";  
+
+
+
+}

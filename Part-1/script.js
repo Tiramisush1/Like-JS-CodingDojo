@@ -1,4 +1,15 @@
-var like = document.querySelector("#btn")
-    function pickLike{
-        h2.innerText = "3 Like(s)"
-    }
+let count = 0;
+function addLike(element){
+    let prevSibling = element.closest(".bx-3").querySelector("#like")
+    count++
+    prevSibling.innerText=`${count} Like(s)` 
+}
+
+
+function addStyleOver(event){
+    event.classList.replace("btn-1", "btn-1")
+}
+
+function addStyleOut(event){
+    event.classList.replace("btn-2", "btn-1")
+}
